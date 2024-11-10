@@ -1,0 +1,25 @@
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+  text-align: center;
+}
+
+.contactButton {
+  padding: 10px;
+}
