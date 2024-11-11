@@ -26,3 +26,24 @@ Para ponerla en marcha escribiremos el comando
 ```bash
 vercel --prod
 ```
+
+#
+
+ejecuta el servidor de desarrollo:
+bash
+npm run dev
+
+# 
+
+Abre http://localhost:3000 con tu navegador para ver el resultado.
+
+Puedes comenzar a editar la página modificando pages/index.js. La página se actualiza automáticamente conforme editas el archivo.
+Estructura del Proyecto
+pages/ - Contiene las rutas de tu aplicación. Cada archivo en esta carpeta se convierte en una ruta.
+components/ - Contiene componentes reutilizables de React.
+styles/ - Contiene archivos CSS para estilizar tu aplicación.
+public/ - Almacena archivos estáticos como imágenes.
+Características
+Página de inicio con secciones para proyectos, blog y contacto.
+Diseño responsivo.
+API routes para manejar solicitudes del servidor.
